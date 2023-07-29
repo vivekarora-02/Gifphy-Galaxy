@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# GIF Search App using React
+![GIF Search App](link_to_screenshot.gif)
+[Watch Demo Video](link_to_demo_video.mp4)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+The GIF Search app built using React allows users to search for GIFs and displays the results using the Giphy API. It also includes the following additional features:
 
-In the project directory, you can run:
+## Favorite Feature:
 
-### `npm start`
+Users can mark their favorite GIFs by clicking on a "Favorite" button/icon associated with each GIF in the search results.
+Marked favorite GIFs are stored persistently, allowing users to access them even after leaving the page or closing the app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Trending Feature:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The app showcases a curated list of trending GIFs fetched in real-time from the Giphy API.
+Users can explore the most popular and up-to-date GIFs across various categories.
+These features enhance user engagement and make the GIF Search app more enjoyable and personalized for users.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow the instructions below to get a copy of the project up and running on your local machine for development and testing purposes.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (v12 or above)
+- npm (v6 or above)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository to your local machine:
+git clone https:
+cd gif-search-react
+2. Install the required dependencies:
+npm install
+## Usage
 
-### `npm run eject`
+To start the development server and run the app locally, use the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Open your web browser and visit `http://localhost:3000` to access the GIF Search app. You can now search for GIFs using the search bar, and the app will display the results accordingly.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React: A JavaScript library for building user interfaces
+- Giphy API: Used to fetch GIFs based on user search queries
+- Axios: A library to make HTTP requests to the Giphy API
+- CSS: For styling the application and creating a visually appealing layout
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+Contributions are welcome! If you find any bugs or have suggestions for additional features, please feel free to open an issue or submit a pull request. We appreciate your feedback and help in improving this project.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To contribute to the project, follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the repository
+2. Create your branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a pull request
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Analyzing the Bundle Size
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- The [Giphy API](https://developers.giphy.com/) for providing access to a vast collection of GIFs.
+- React community and contributors for their valuable resources and documentation.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
