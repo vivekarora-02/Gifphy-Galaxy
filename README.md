@@ -30,7 +30,7 @@ Follow the instructions below to get a copy of the project up and running on you
 ### Installation
 
 1. Clone the repository to your local machine:
-git clone https:
+git clone https: https://github.com/vivekarora-02/Gifphy-Galaxy.git
 cd gif-search-react
 2. Install the required dependencies:
 npm install
