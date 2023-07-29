@@ -1,5 +1,5 @@
 # GIF Search App using React
-![GIF Search App](link_to_screenshot.gif)
+![GIF Search App](https://github.com/vivekarora-02/Gifphy-Galaxy/blob/master/gif.png)
 [Watch Demo Video](link_to_demo_video.mp4)
 
 
