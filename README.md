@@ -1,6 +1,8 @@
 # GIF Search App using React
 ![GIF Search App](https://github.com/vivekarora-02/Gifphy-Galaxy/blob/master/gif.png)
-[Watch Demo Video](link_to_demo_video.mp4)
+
+
+## [Watch Demo Video](https://www.youtube.com/watch?v=g8XayR1ws3Q)
 
 
 The GIF Search app built using React allows users to search for GIFs and displays the results using the Giphy API. It also includes the following additional features:
