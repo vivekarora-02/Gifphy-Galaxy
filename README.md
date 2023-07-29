@@ -7,16 +7,23 @@
 
 The GIF Search app built using React allows users to search for GIFs and displays the results using the Giphy API. It also includes the following additional features:
 
-## Favorite Feature:
+## Features
 
-Users can mark their favorite GIFs by clicking on a "Favorite" button/icon associated with each GIF in the search results.
-Marked favorite GIFs are stored persistently, allowing users to access them even after leaving the page or closing the app.
+- **Search Feature**:
+  - The app allows users to search for GIFs using the search bar.
+  - The app fetches GIFs from the Giphy API based on the user's search query and displays them in real-time.
 
-## Trending Feature:
+- **Favorite Feature**:
+  - Users can mark their favorite GIFs by clicking on a "Favorite" button/icon associated with each GIF in the search results.
+  - Marked favorite GIFs are stored persistently, allowing users to access them even after leaving the page or closing the app.
 
-The app showcases a curated list of trending GIFs fetched in real-time from the Giphy API.
-Users can explore the most popular and up-to-date GIFs across various categories.
-These features enhance user engagement and make the GIF Search app more enjoyable and personalized for users.
+- **Trending Feature**:
+  - The app showcases a curated list of trending GIFs fetched in real-time from the Giphy API.
+  - Users can explore the most popular and up-to-date GIFs across various categories.
+    
+- **Random Feature**:
+  - Click the "Get Random GIF" button to fetch and display a random GIF from the Giphy API.
+  - Surprise yourself with a fun and unexpected GIF!
 
 ## Getting Started
 
