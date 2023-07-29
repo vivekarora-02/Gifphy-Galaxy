@@ -13,8 +13,8 @@ The GIF Search app built using React allows users to search for GIFs and display
   - The app allows users to search for GIFs using the search bar.
   - The app fetches GIFs from the Giphy API based on the user's search query and displays them in real-time.
 
-- **Favorite Feature**:
-  - Users can mark their favorite GIFs by clicking on a "Favorite" button/icon associated with each GIF in the search results.
+- **Liked Feature**:
+  - Users can mark their favorite GIFs by clicking on a "Like" button/icon associated with each GIF in the search results.
   - Marked favorite GIFs are stored persistently, allowing users to access them even after leaving the page or closing the app.
 
 - **Trending Feature**:
